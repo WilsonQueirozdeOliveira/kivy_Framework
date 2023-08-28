@@ -1,0 +1,29 @@
+#:kivy 2.2.1
+BoxLayoutExample:
+
+#MainWidget:
+<BoxLayoutExample>:
+    orientation: "vertical"
+    Button:
+        text: "a"
+        #size_hint: .8, .5
+        size_hint: None, None
+        size: 40, 40
+        
+    Button:
+        text: "b"
+    Label:
+        text: "box"
+
+<MainWidget>:
+    Button:
+        text: "Hello"
+        size: 100, 50
+        pos: 100, 200
+        
+    Label:
+        text: "Hello2"
+        size: 100, 50
+        pos: 100, 300
+        color: 1, 0, 0, 1 # r,g,b,a 
+    
