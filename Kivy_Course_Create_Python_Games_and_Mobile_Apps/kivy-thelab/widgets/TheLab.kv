@@ -1,0 +1,23 @@
+#:kivy 2.2.1
+MainWidget:
+
+<MainWidget>:
+    Button:
+        text: "Hello"
+        size: 100, 50
+        pos: 100, 200
+        
+    Label:
+        text: "Hello2"
+        size: 100, 50
+        pos: 100, 300
+        color: 1, 0, 0, 1 # r,g,b,a 
+
+    ToggleButton:
+        text: "ToggleButton"
+    Image:
+        source: 'image.png'
+        text: "image"
+        size: self.texture_size
+        pos: 200, 0
+    
